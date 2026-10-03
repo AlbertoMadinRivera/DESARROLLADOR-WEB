@@ -156,20 +156,58 @@ Al finalizar este curso se espera ser capaz de desarrollar aplicaciones web comp
 
 # 👨‍💻 Autor
 
-**Alberto Madin Rivera**
+## Alberto Madin Rivera
 
-Senior Data Operations Analyst
+**Senior Data Operations Analyst** especializado en análisis de datos, automatización, inteligencia de negocios y desarrollo de aplicaciones analíticas.
 
-Intereses:
+Actualmente ampliando conocimientos en **Desarrollo Web Full Stack** mediante el estudio de:
+
+- HTML5
+- CSS3
+- JavaScript
+- AJAX
+- PHP
+- MySQL
+
+Intereses profesionales:
 
 - Data Analytics
 - Business Intelligence
 - SQL
 - R Programming
-- Shiny Apps
+- Shiny Applications
+- Data Visualization
+- Automation
 - Full Stack Development
 
 ---
+
+# 🌐 Redes Sociales
+
+### LinkedIn
+
+[Alberto Madin Rivera](https://www.linkedin.com/in/alberto-madin-rivera-3a1b38223/)
+
+### GitHub
+
+https://github.com/AlbertoMadinRivera
+
+---
+
+# 📈 Objetivo Profesional
+
+Este repositorio forma parte de mi transición y crecimiento continuo como desarrollador, complementando mi experiencia en análisis de datos, SQL, R y Shiny con tecnologías Full Stack orientadas al desarrollo de aplicaciones web modernas.
+
+Mi meta es integrar conocimientos de:
+
+- Desarrollo Frontend
+- Desarrollo Backend
+- Bases de Datos Relacionales
+- Automatización de Procesos
+- Visualización de Datos
+- Business Intelligence
+
+para construir soluciones empresariales escalables y orientadas a la toma de decisiones basada en datos.
 
 # 📈 Visión Profesional
 
