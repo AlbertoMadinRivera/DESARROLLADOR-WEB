@@ -1,0 +1,12 @@
+Etiquetas para agrupar:
+<header>
+<footer>
+<nav>
+<main>
+<section>
+<article>
+<aside>
+<div>
+
+Si tiene un encabezado <head> debe de tener un section, ya que sirven para contener un contenido.
+El <main> es más importante que el <section> ya que define lo que realmente ofrece la página web.

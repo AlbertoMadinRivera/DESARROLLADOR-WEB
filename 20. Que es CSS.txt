@@ -1,0 +1,25 @@
+Está encargado de tamaños, espacios, colores, animaciones
+
+Hojas de estilo en cascada,
+que permitirán darle a tu código HTML un diseño
+especial y único en pocas líneas.
+
+Se encarga de tamaños,
+tipos de fuentes,
+colores, espacios,
+margenes,
+adaptar el mismo diseño a distintas aplicaciones.
+
+
+CSS es muy fácil.
+
+Anatomia del CSS 
+
+--- Selector
+p 
+{
+
+}
+-- Llave de apertura y cierre
+propiedad: color: blue;
+valor: blue; 

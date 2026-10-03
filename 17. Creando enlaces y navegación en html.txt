@@ -1,0 +1,5 @@
+Generalmente en HTML se usa para generar enlaces enlistados con un <ul></ul>. Y dentro de ellos los <li></li>.
+Pero como el menú es de un solo nivel se puede usar la función </nav>.
+
+Dentro de ellas poner la función <a> para que se genere unas comillas en donde te lleve de enlace:
+        <a href="">Inicio</a>
