@@ -18,8 +18,9 @@ Anatomia del CSS
 --- Selector
 p 
 {
-
+color:
 }
 -- Llave de apertura y cierre
 propiedad: color: blue;
 valor: blue; 
+
