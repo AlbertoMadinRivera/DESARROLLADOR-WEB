@@ -11,6 +11,18 @@ h1 {
     padding: 20px;
 }
 
+/* Estilo general del h2 */
+h2{
+    color: #78909c;
+    font-family: "Century Gothic", Arial, sans-serif;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
 /* Estilo del menú de navegación */
 nav {
     background: linear-gradient(
@@ -53,13 +65,152 @@ img{
     border-radius: 0 0 15px 15px;
 }
 
-/* Estilo de la ubicación CDMX*/
-.ubicacion {
-    color: #e0e0e0;
+/* Estilo de la ubicación2 CDMX*/
+.ubicacion{
+    color: #ffffff !important;
+    background: linear-gradient(
+        to right,
+        #455a64,
+        #607d8b
+    );
     font-family: "Century Gothic", sans-serif;
     font-size: 18px;
+    font-weight: bold;
     text-align: center;
-    letter-spacing: 2px;
+    padding: 15px;
+    letter-spacing: 4px;
     text-transform: uppercase;
-    margin-top: 10px;
+    border-radius: 10px;
+    text-shadow:
+        0 1px 3px rgba(0,0,0,.4);
 }
+
+/* Estilo de la sección */
+.section1 h2{
+    color: #607d8b;
+    font-family: "Century Gothic", sans-serif;
+}
+
+/* Estilo de los párrafos de la sección */
+.section1 p{
+    color: #455a64;
+    font-family: "Century Gothic", sans-serif;
+    line-height: 1.6;
+}
+
+.section1 a{
+    text-align: center;
+    display: block;
+    width: fit-content;
+    margin: 20px auto;
+    padding: 12px 24px;
+    background: transparent;
+    color: #607d8b;
+    text-decoration: none;
+    border-radius: 30px;
+    font-family: "Century Gothic", sans-serif;
+    font-weight: 600;
+    transition:.3s ease;
+}
+
+.section1 a:hover{
+    background: #607d8b;
+    color: white;
+}
+
+/* =========================
+   CONTENEDOR PRINCIPAL
+========================= */
+main{
+    width: 90%;
+    max-width: 1200px;
+    margin: 60px auto;
+}
+
+/* =========================
+   GRID DE SERVICIOS
+========================= */
+.servicios{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+/* =========================
+   TARJETAS DE SERVICIO
+========================= */
+.servicios section{
+    background: linear-gradient(
+        145deg,
+        #ffffff,
+        #f5f7fa
+    );
+
+    border-radius: 25px;
+    padding: 35px 25px;
+
+    text-align: center;
+
+    box-shadow:
+        0 8px 25px rgba(0,0,0,0.08);
+
+    transition: all 0.35s ease;
+
+    border-top: 5px solid #607d8b;
+}
+
+.servicios section:hover{
+    transform: translateY(-10px);
+    box-shadow:
+        0 15px 35px rgba(0,0,0,0.15);
+}
+
+/* =========================
+   ICONOS
+========================= */
+.servicios svg{
+    width: 70px;
+    height: 70px;
+
+    stroke: #607d8b;
+
+    padding: 15px;
+
+    background-color: #eceff1;
+
+    border-radius: 50%;
+
+    margin-bottom: 20px;
+}
+
+/* =========================
+   TITULOS
+========================= */
+.servicios h3{
+    color: #455a64;
+    font-family: "Century Gothic", Arial, sans-serif;
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+}
+
+/* =========================
+   TEXTO
+========================= */
+.servicios p{
+    color: #546e7a;
+    font-family: "Century Gothic", Arial, sans-serif;
+    line-height: 1.8;
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+@media (max-width: 900px){
+
+    .servicios{
+        grid-template-columns: 1fr;
+    }
+
+}
+
+
