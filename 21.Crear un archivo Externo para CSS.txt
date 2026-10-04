@@ -1,3 +1,5 @@
+Se recomienda hacer una carpeta llamada CSS o Style.css 
+
 <!-- Esto es un comentario-->
 <!DOCTYPE html>
 <html lang="en">
