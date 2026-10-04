@@ -1,0 +1,29 @@
+/* Estilo general del h1 */
+h1 {
+    color: #607d8b;
+    text-align: center;
+    font-family: "Century Gothic", Arial, sans-serif;
+}
+
+/* Estilo del encabezado */
+nav {
+    background-color: #607d8b;
+    padding: 15px;
+    text-align: center;
+}
+
+/* Estilo de los enlaces */
+nav a {
+    color: white;
+    text-decoration: none; /* quita el subrayado */
+    font-family: "Century Gothic", Arial, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 15px;
+}
+
+/* Cuando el mouse pasa encima */
+nav a:hover {
+    color: #ffd54f;
+    transition: 0.3s;
+}
