@@ -1,0 +1,260 @@
+=========================================
+REGLAS BÁSICAS DE CSS (GUÍA RÁPIDA)
+=========================================
+
+1. SELECTOR DE ETIQUETA
+-----------------------
+Aplica estilos a todas las etiquetas HTML indicadas.
+
+p {
+    color: blue;
+}
+
+h1 {
+    text-align: center;
+}
+
+2. SELECTOR DE CLASE
+--------------------
+Se utiliza con el atributo class.
+
+.mi-clase {
+    color: red;
+}
+
+HTML:
+<p class="mi-clase">Hola Mundo</p>
+
+3. SELECTOR DE ID
+-----------------
+Se utiliza con el atributo id.
+
+#encabezado {
+    background-color: black;
+    color: white;
+}
+
+HTML:
+<h1 id="encabezado">Título</h1>
+
+4. COLOR DE TEXTO
+-----------------
+color: red;
+color: #ff0000;
+color: rgb(255,0,0);
+
+5. COLOR DE FONDO
+-----------------
+background-color: lightblue;
+
+6. TIPO DE LETRA
+----------------
+font-family: Arial, sans-serif;
+
+7. TAMAÑO DE LETRA
+------------------
+font-size: 16px;
+font-size: 1.2rem;
+
+8. NEGRITAS
+-----------
+font-weight: bold;
+
+9. CURSIVA
+----------
+font-style: italic;
+
+10. ALINEACIÓN DE TEXTO
+-----------------------
+text-align: left;
+text-align: center;
+text-align: right;
+text-align: justify;
+
+11. MAYÚSCULAS Y MINÚSCULAS
+---------------------------
+text-transform: uppercase;
+text-transform: lowercase;
+text-transform: capitalize;
+
+12. DECORACIÓN DEL TEXTO
+------------------------
+text-decoration: none;
+text-decoration: underline;
+
+13. ANCHO
+---------
+width: 300px;
+width: 100%;
+
+14. ALTO
+--------
+height: 200px;
+
+15. MÁRGENES
+------------
+margin: 20px;
+
+margin-top: 10px;
+margin-right: 20px;
+margin-bottom: 10px;
+margin-left: 20px;
+
+16. RELLENO INTERNO
+-------------------
+padding: 20px;
+
+17. BORDES
+----------
+border: 2px solid black;
+
+18. ESQUINAS REDONDEADAS
+------------------------
+border-radius: 10px;
+
+19. SOMBRAS
+-----------
+box-shadow: 2px 2px 10px gray;
+
+20. VISIBILIDAD
+---------------
+display: none;
+display: block;
+display: inline;
+display: inline-block;
+
+21. POSICIONAMIENTO
+-------------------
+position: static;
+position: relative;
+position: absolute;
+position: fixed;
+position: sticky;
+
+22. FLEXBOX
+-----------
+display: flex;
+
+justify-content: center;
+align-items: center;
+flex-direction: row;
+flex-direction: column;
+
+23. GRID
+---------
+display: grid;
+
+grid-template-columns: 1fr 1fr 1fr;
+gap: 10px;
+
+24. COLOR DEL ENLACE
+--------------------
+a {
+    color: blue;
+}
+
+a:hover {
+    color: red;
+}
+
+25. EFECTO HOVER
+----------------
+button:hover {
+    background-color: green;
+    color: white;
+}
+
+26. CURSOR
+-----------
+cursor: pointer;
+
+27. TRANSPARENCIA
+-----------------
+opacity: 0.5;
+
+28. TRANSICIONES
+----------------
+transition: all 0.3s ease;
+
+29. TRANSFORMACIONES
+--------------------
+transform: scale(1.2);
+transform: rotate(45deg);
+
+30. IMAGEN DE FONDO
+------------------
+background-image: url("imagen.jpg");
+background-size: cover;
+background-position: center;
+
+31. DESBORDAMIENTO
+------------------
+overflow: hidden;
+overflow: scroll;
+overflow: auto;
+
+32. ORDEN DE CAPAS
+------------------
+z-index: 100;
+
+=========================================
+EJEMPLO COMPLETO
+=========================================
+
+.card {
+    width: 300px;
+    padding: 20px;
+    margin: 20px auto;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
+}
+
+.card h2 {
+    color: navy;
+}
+
+.card button {
+    background-color: royalblue;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.card button:hover {
+    background-color: darkblue;
+}
+
+=========================================
+UNIDADES MÁS UTILIZADAS
+=========================================
+
+px   = píxeles
+%    = porcentaje
+em   = relativo al elemento padre
+rem  = relativo al tamaño raíz
+vw   = ancho de ventana
+vh   = alto de ventana
+
+Ejemplo:
+width: 50%;
+font-size: 1.2rem;
+height: 100vh;
+
+=========================================
+COMENTARIOS EN CSS
+=========================================
+
+/* Esto es un comentario */
+
+=========================================
+SINTAXIS GENERAL
+=========================================
+
+selector {
+    propiedad: valor;
+    propiedad: valor;
+}
