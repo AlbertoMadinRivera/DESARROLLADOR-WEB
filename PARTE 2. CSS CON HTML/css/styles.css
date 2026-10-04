@@ -1,29 +1,54 @@
 /* Estilo general del h1 */
 h1 {
+    background: linear-gradient(
+        to right,
+        #eceff1,
+        #ffffff
+    );
     color: #607d8b;
     text-align: center;
     font-family: "Century Gothic", Arial, sans-serif;
+    padding: 20px;
 }
 
-/* Estilo del encabezado */
+/* Estilo del menú de navegación */
 nav {
-    background-color: #607d8b;
-    padding: 15px;
-    text-align: center;
+    background: linear-gradient(
+        to right,
+        #455a64,
+        #607d8b
+    );
+
+    padding: 18px;
+
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+    box-shadow: 0px 3px 10px rgba(0,0,0,0.2);
 }
 
-/* Estilo de los enlaces */
+/* Estilo de los enlaces del menú de navegación */
 nav a {
     color: white;
-    text-decoration: none; /* quita el subrayado */
+    text-decoration: none;
     font-family: "Century Gothic", Arial, sans-serif;
     font-size: 18px;
     font-weight: bold;
-    margin: 0 15px;
+    transition: 0.3s;
 }
 
-/* Cuando el mouse pasa encima */
+/* Estilo de los enlaces del menú de navegación al pasar el mouse */
 nav a:hover {
     color: #ffd54f;
-    transition: 0.3s;
+}
+
+/* Estilo de la sección */
+img{
+    width: 100%;
+    height: 80vh;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+    border-radius: 0 0 15px 15px;
 }
