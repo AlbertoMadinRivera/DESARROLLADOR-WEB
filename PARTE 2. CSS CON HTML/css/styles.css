@@ -52,3 +52,14 @@ img{
     display: block;
     border-radius: 0 0 15px 15px;
 }
+
+/* Estilo de la ubicación CDMX*/
+.ubicacion {
+    color: #e0e0e0;
+    font-family: "Century Gothic", sans-serif;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
