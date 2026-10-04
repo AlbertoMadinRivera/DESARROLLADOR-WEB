@@ -1,0 +1,129 @@
+╔════════════════════════════════════╗
+║                                    ║
+║        IMAGEN OSCURECIDA           ║
+║                                    ║
+║  Diseño y Desarrollo Web           ║
+║      Ciudad de México              ║
+║                                    ║
+║        [ Contactar ]               ║
+║                                    ║
+╚════════════════════════════════════╝
+
+<section class="hero">
+
+    <img src="img/Designer.png" alt="">
+
+    <div class="hero-contenido">
+
+        <h2>Diseño y Desarrollo Web Freelance</h2>
+
+        <p>
+            📍 Ciudad de México, CDMX
+        </p>
+
+        <a href="#">Contactar</a>
+
+    </div>
+
+</section>
+
+
+
+.hero{
+    position: relative;
+
+    width: 100%;
+
+    height: 80vh;
+
+    overflow: hidden;
+
+    border-radius: 20px;
+}
+.hero img{
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+
+    display: block;
+}
+.hero::before{
+    content: "";
+
+    position: absolute;
+
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    background: rgba(0,0,0,.45);
+
+    z-index: 1;
+}
+.hero-contenido{
+
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    z-index: 2;
+
+    text-align: center;
+
+    color: white;
+}
+.hero-contenido h2{
+
+    color: white;
+
+    font-size: 3rem;
+
+    font-family: "Century Gothic", sans-serif;
+
+    margin-bottom: 20px;
+
+    text-shadow:
+        0 3px 15px rgba(0,0,0,.5);
+}
+.hero-contenido p{
+
+    font-size: 1.2rem;
+
+    letter-spacing: 3px;
+
+    margin-bottom: 25px;
+
+    color: rgba(255,255,255,.9);
+
+    text-shadow:
+        0 2px 10px rgba(0,0,0,.5);
+}
+.hero-contenido a{
+
+    display: inline-block;
+
+    padding: 14px 28px;
+
+    background: #607d8b;
+
+    color: white;
+
+    text-decoration: none;
+
+    border-radius: 30px;
+
+    transition: .3s;
+}
+
+.hero-contenido a:hover{
+
+    background: #455a64;
+
+    transform: translateY(-3px);
+}
