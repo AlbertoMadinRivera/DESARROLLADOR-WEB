@@ -1,0 +1,12 @@
+/* Estilo general del h1 */
+h1 {
+    background: linear-gradient(
+        to right,
+        #eceff1,
+        #ffffff
+    );
+    color: #607d8b;
+    text-align: center;
+    font-family: "Century Gothic", Arial, sans-serif;
+    padding: 20px;
+}
