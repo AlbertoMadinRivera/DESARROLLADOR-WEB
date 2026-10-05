@@ -1,12 +1,80 @@
-/* Estilo general del h1 */
-h1 {
-    background: linear-gradient(
-        to right,
-        #eceff1,
-        #ffffff
-    );
-    color: #607d8b;
-    text-align: center;
-    font-family: "Century Gothic", Arial, sans-serif;
-    padding: 20px;
+/* ==========================
+   HERO PRINCIPAL
+========================== */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.hero{
+    position:relative;
+    width:100vw;
+    min-height:100vh;
+    background-size:cover;
+    background-position:center center;
+    background-repeat:no-repeat;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    overflow:hidden;
+    margin:0;
+    border-radius:0;
+}
+
+
+/* Oscurece levemente la imagen para mejorar legibilidad */
+.overlay{
+    position:absolute;
+    inset:0;
+    background:rgba(0,0,0,.35);
+    backdrop-filter:blur(1px);
+}
+
+/* Contenido encima */
+.hero-content{
+    position:relative;
+    z-index:2;
+    max-width:900px;
+    padding:40px;
+    text-align:center;
+    color:white;
+}
+
+/* Título */
+.hero-content h1{
+    font-family:"Century Gothic", sans-serif;
+    font-size:4.5rem;
+    font-weight:bold;
+    margin-bottom:25px;
+    text-shadow:
+        0 2px 10px rgba(0,0,0,.6);
+}
+
+/* Texto */
+.hero-content p{
+    font-family:"Century Gothic", sans-serif;
+    font-size:1.2rem;
+    line-height:1.9;
+    margin-bottom:35px;
+    text-shadow:
+        0 2px 10px rgba(0,0,0,.6);
+}
+
+/* Botón */
+.btn{
+    display:inline-block;
+    padding:14px 30px;
+    background:rgba(255,255,255,.15);
+    color:white;
+    text-decoration:none;
+    border-radius:30px;
+    backdrop-filter:blur(10px);
+    transition:.3s;
+}
+
+.btn:hover{
+    transform:translateY(-3px);
+    background:white;
+    color:#212121;
 }
