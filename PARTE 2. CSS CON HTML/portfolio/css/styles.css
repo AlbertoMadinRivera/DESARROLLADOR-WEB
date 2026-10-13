@@ -70,7 +70,7 @@ header {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    z-index: 1;
+    z-index: 2;
     width: 80%; /* Ajusta el ancho del contenido según tus necesidades */
     max-width: 900px; /* Limita el ancho máximo del contenido */
 
@@ -141,4 +141,10 @@ header {
         0 0 8px rgba(100,181,246,.7),
         0 0 20px rgba(100,181,246,.5),
         0 2px 10px rgba(0,0,0,.8);
+}
+
+.overlay{
+    position: absolute;
+    inset: 0;
+    background: rgba(30, 35, 40, 0.70);
 }
