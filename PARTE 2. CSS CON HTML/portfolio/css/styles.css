@@ -1,6 +1,21 @@
 /* ==========================
    HERO PRINCIPAL
 ========================== */
+/* Estilo general del h1 */
+header {
+    background: linear-gradient(
+        to right,
+        #eceff1,
+        #ffffff
+    );
+    color: #607d8b;
+    text-align: center;
+    font-family: "Century Gothic", Arial, sans-serif;
+    padding: 20px;
+    font-size: 40px;
+    box-shadow: 0px 3px 10px rgba(0,0,0,0.2);
+}
+
 *{
     margin:0;
     padding:0;
