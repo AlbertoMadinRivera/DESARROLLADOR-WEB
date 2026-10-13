@@ -1,0 +1,29 @@
+* GitHub Copilot Chat 
+* .NET Install Tool
+* Colab 
+* Debugger for Java
+* Dracula Theme Official
+* Extension Pack for Java 
+* Gradle for Java
+* ident-rainbow
+* Jinja
+* Jupyter 
+* Jupyter Ada Kernel 
+* Jupyter Cell Tags 
+* Jupyter Keymap 
+* Jupyter Notebook Renderers
+* Jupyter PowerToys 
+* Jupyter Slide Show 
+* Language Support for Java(TM) By Red Hat 
+* Live Preview 
+* Maven for Java 
+* Project Manager for Java 
+* Pylance 
+* Python 
+* Python Debugger 
+* Python Environments 
+* R
+* R Syntax 
+* Rainbow CSV 
+* Test Runner for Java 
+* Thunder Client
