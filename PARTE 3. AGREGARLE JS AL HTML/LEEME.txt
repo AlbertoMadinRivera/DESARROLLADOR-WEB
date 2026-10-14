@@ -1,0 +1,11 @@
+PORTAFOLIO NEON MORADO PRO
+
+Abrir index.html en un navegador.
+Páginas: index.html, inicio.html, sobre-mi.html, servicios.html, proyectos.html, contacto.html.
+CSS: css/styles.css. JS: js/main.js. Imágenes: assets/.
+
+IMPORTANTE: Cambiar tu-correo@ejemplo.com en js/main.js antes de publicar. El formulario usa mailto y no almacena mensajes ni envía correos desde un servidor.
+Las ilustraciones SVG de proyectos son conceptuales y no representan proyectos publicados; la Galería de Gráficos en R sí tiene enlace público.
+Las imágenes PNG originales se conservaron del ZIP proporcionado.
+Los textos profesionales de Sobre mí se adaptaron del proyecto original.
+Prueba enlaces y contenido antes de publicar.
