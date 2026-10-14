@@ -225,3 +225,23 @@ header {
 .red-social a:hover{
     color: #607d8b;
 }
+
+/* ===== DARK PURPLE NEON: paginas interiores ===== */
+:root{--neon:#bf74ff;--bg:#090715;--surface:#171025;--ink:#f7efff;--muted:#d4c2e2}
+body{background:var(--bg);color:var(--ink);font-family:'Century Gothic',Arial,sans-serif}
+header{background:linear-gradient(90deg,#12091f,#301442)!important;color:#f6eaff!important;text-shadow:0 0 15px #ad58ff88;border-bottom:1px solid #9c56c466}
+.hero{background:#10091c!important;isolation:isolate}
+.hero>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center}
+.overlay{background:linear-gradient(90deg,#090715ed,#120b22cc 65%,#10091caa)!important;backdrop-filter:none!important}
+.hero-contenido{width:min(1050px,90%);max-width:1050px;max-height:85vh;overflow:auto;padding:20px 14px;text-align:left}
+.hero-contenido h1,.hero-contenido h2{color:#fff!important;text-shadow:0 0 20px #b76bff99;font-size:clamp(1.7rem,4vw,3.1rem)}
+.hero-contenido p{color:#f0e6f8!important;line-height:1.65!important;text-align:left!important;font-size:clamp(.9rem,1.25vw,1rem)!important}
+.hero-contenido code{color:#e6a3ff!important;text-shadow:0 0 10px #b76bff88}
+.hero-contenido a,.btn{background:#2c1542!important;border:1px solid var(--neon)!important;color:#fff!important;box-shadow:0 0 16px #b76bff44}
+.hero-contenido a:hover,.btn:hover{background:#7638a5!important;box-shadow:0 0 24px #b76bff99!important}
+.perfil-profesional{background:linear-gradient(180deg,#100a1c,#1b102c)!important;color:var(--ink)!important}
+.perfil-profesional h2,.perfil-profesional h3{color:#d49aff!important}
+.perfil-profesional p,.perfil-profesional li{color:#d6c6e5!important}
+.ficha-grid>*,.perfil-profesional article,.perfil-profesional .card{background:#1d1330!important;color:var(--ink)!important;border:1px solid #7947a077!important;box-shadow:0 10px 30px #0005!important}
+@media(max-width:700px){.hero{min-height:100vh}.hero-contenido{width:94%;max-height:80vh;padding:10px}.hero-contenido p{font-size:.88rem!important;line-height:1.45!important}.perfil-profesional{padding:45px 5%!important}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{transition:none!important}}
